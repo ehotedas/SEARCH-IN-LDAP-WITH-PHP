@@ -4,7 +4,7 @@
  $ldap_dn = "enter the path of where your user is in the ldap";
  $ldap_password = "your user password";
 
- $ldap_con = ldap_connect("dns or ip of your ldap");
+ $ldap_con = ldap_connect("full name of the computer where ldap is");
 
  //Connection protocol
  ldap_set_option($ldap_con, LDAP_OPT_PROTOCOL_VERSION, 3);
